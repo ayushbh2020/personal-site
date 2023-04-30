@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/cutive": "^4.5.10",
+    "@fontsource/monoton": "^4.5.10",
+    "@fontsource/noto-serif": "^4.5.11",
     "@types/node": "18.16.0",
     "@types/react": "18.0.38",
     "@types/react-dom": "18.0.11",

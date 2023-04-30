@@ -8,20 +8,64 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.logo {
+  font-family: "Monoton";
+  font-size: 40px;
+}
+
+.button {
+  font-family: "Cutive";
+  font-size: 14px;
+}
+.tag {
+  font-family: "Cutive";
+  font-size: 9px;
+}
+
+h1 {
+  font-family: "Cutive";
+  font-size: 34px;
+}
+
+h2 {
+  font-family: "Cutive";
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Cutive";
+  font-size: 23px;
+}
+
+h4 {
+  font-family: "Cutive";
+  font-size: 16px;
+}
+
+h5 {
+  font-family: "Cutive";
+  font-size: 16px;
+}
+
+p {
+  font-family: "Noto Serif";
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1023px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
