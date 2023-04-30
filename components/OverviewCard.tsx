@@ -22,8 +22,10 @@ const OverviewCard = (props: any) => {
         </div>
 
         <div className="whitespace-pre-wrap text-center md:text-left  mx-8 md:mx-0">
-          {description.map((paragraph: string) => (
-            <p className="mb-4"> {paragraph}</p>
+          {description.map((paragraph: string, index: number) => (
+            <p key={index} className="mb-4">
+              {paragraph}
+            </p>
           ))}
         </div>
         <Link href="/projects" className="justify-center flex md:justify-start">
