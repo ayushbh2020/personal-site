@@ -1,6 +1,6 @@
 export const experience = [
   {
-    title: "Lead Engineer",
+    title: "Technical Co-Founder",
     company: "CreatorCrew",
     date: "Sept 2022 - Apr 2023",
     location: "Los Angeles, CA",
