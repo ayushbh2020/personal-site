@@ -57,6 +57,10 @@ p {
 }
 
 @media screen and (max-width: 1023px) {
+  .logo {
+    font-family: "Monoton";
+    font-size: 34px;
+  }
   h1 {
     font-size: 30px;
   }

@@ -3,6 +3,7 @@ import Link from "next/link";
 
 const OverviewCard = (props: any) => {
   const { title, description, type, screenshot, reverse, link } = props;
+  const project = type == "project";
   return (
     <div className="flex items-center mb-12 flex-col md:flex-row">
       <div
@@ -15,9 +16,7 @@ const OverviewCard = (props: any) => {
             <h3 className="underline mr-4">{title}</h3>
           </Link>
           <div className=" bg-navy h-8 px-4 items-center justify-center flex">
-            <p className=" text-white text-xs">
-              {type == "project" ? "PROJECT" : "INTERNSHIP"}
-            </p>
+            <p className=" text-white text-xs">{project ? "PROJECT" : "INTERNSHIP"}</p>
           </div>
         </div>
 
@@ -28,9 +27,12 @@ const OverviewCard = (props: any) => {
             </p>
           ))}
         </div>
-        <Link href="/projects" className="justify-center flex md:justify-start">
+        <Link
+          href={project ? "/projects" : "/experience"}
+          className="justify-center flex md:justify-start"
+        >
           <button className="bg-navy text-white h-12 px-3 flex justify-center items-center mt-4 button">
-            View My {type == "project" ? "Projects" : "Experience"}
+            View My {project ? "Projects" : "Experience"}
           </button>
         </Link>
       </div>

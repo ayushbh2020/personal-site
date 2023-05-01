@@ -6,7 +6,7 @@ export const experience = [
     location: "Los Angeles, CA",
     website: "https://app.thearcove.com",
     companyDescription:
-      "CreatorCrew is a hiring platform for creators to grow their content teams incubated by Velocity. The platform grew to over 100 top notch video editors and thumbnail designers and processed $20,000 in payments. We exited and sold the company to thearcove.com.",
+      "Within just 8 months, CreatorCrew grew to over 100 top-notch video editors and thumbnail designers and successfully exited to thearcove.com. Incubated by Velocity, our team built a powerful hiring platform that enabled creators to expand their content teams with ease.",
     accomplishments: [
       "Built CreatorCrew from the ground-up, serving as lead developer and implementing platform enhancements such as in-app messaging, SendGrid email invitations, and a contract builder with e-signing functionality.",
       "Developed a robust payment infrastructure using Stripe API and OAuth, enabling secure deposit holding, management of creator payment methods, and seamless sending of both one-time and recurring payments to crew Stripe Connect accounts.",
@@ -24,7 +24,8 @@ export const experience = [
     companyDescription:
       "Tradable Bits is a fan engagement platform for sports and entertainment brands. The platform has processed millions of fan interactions and is used by brands such as the Leafs, Spurs and Lolapalooza.",
     accomplishments: [
-      "Rebuilt entire integrations page on platform with over 30 integrations including Salesforce, Mailchimp, Ticketmaster, Universe, Eventbrite, FrontGate Ticketing by delving into each API- Built Square OAuth and used Python Celery to run weekly task to refresh the access token",
+      "Rebuilt entire integrations page on platform with over 30 integrations including Salesforce, Mailchimp, Ticketmaster, Universe, Eventbrite, FrontGate Ticketing by delving into each API and building a custom integration for each",
+      "Built Square OAuth and used Python Celery to run weekly task to refresh the access token",
       "Used Hubspot's API to sync fan data from Tradable Bits to Hubspot through a daily task on celery",
       "Built wifi splash page for BC place used by 100,000s of Vancouver Whitecaps, BC Lions fans and concert-goers every year",
     ],

@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         <h3 className="text-center mt-8 px-6">
           I’m Ayush! I’m a builder, software engineer and bagel enthusiast studying
-          management engineering at the University of Waterloo{" "}
+          Management Engineering at the University of Waterloo{" "}
         </h3>
       </div>
       {projects.map((project: Project, index: number) => (
