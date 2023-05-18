@@ -24,10 +24,10 @@ export const experience = [
     companyDescription:
       "Tradable Bits is a fan engagement platform for sports and entertainment brands. The platform has processed millions of fan interactions and is used by brands such as the Leafs, Spurs and Lolapalooza.",
     accomplishments: [
-      "Rebuilt entire integrations page on platform with over 30 integrations including Salesforce, Mailchimp, Ticketmaster, Universe, Eventbrite, FrontGate Ticketing by delving into each API and building a custom integration for each",
-      "Built Square OAuth and used Python Celery to run weekly task to refresh the access token",
+      "Redeveloped external integrations by using 30+ APIs, including Salesforce, Mailchimp, Ticketmaster, Eventbrite, and FrontGate Ticketing while adding robust testing and connection capabilities for seamless integration with the rest of the Tradable Bits platform",
+      "Integrated Square OAuth into platform and used Python Celery to to refresh the Square access token weekly",
       "Used Hubspot's API to sync fan data from Tradable Bits to Hubspot through a daily task on celery",
-      "Built wifi splash page for BC place used by 100,000s of Vancouver Whitecaps, BC Lions fans and concert-goers every year",
+      "Designed and developed wifi splash page for BC Place used by 100,000s of Vancouver Whitecaps, BC Lions fans and concert-goers every year",
     ],
     stack: [
       "Agile 15 day sprints",
@@ -49,7 +49,8 @@ export const experience = [
       "Onboarded 15 sustainable fashion brands and 500 users across Canada",
       "Launched and maintained a 5 star review on the Apple and Google Play Stores from 70+ reviews",
       "Built a Shopify integration to onboard brands onto our marketplace in minutes",
-      "Designed and created entire mobile marketplace with team- Raised over $12k in capital from Velocity, Greenhouse, Invest Ottawa, University of Waterloo",
+      "Designed and created entire mobile marketplace with team",
+      "Raised over $12k in capital from Velocity, Greenhouse, Invest Ottawa, University of Waterloo",
       "Won 1st place at the University of Waterloo's Velocity Fund Finals from a pool of 100+ startups",
       "Best New Ottawa Business Award 2020",
       "Managed a remote team of 7 in business and product operations",

@@ -6,7 +6,7 @@ export const projects = [
       "Rewind is an ongoing data engineering project under the partnership of Youtuber Jordan Matter.  The goal is to find the most trending videos within a day of their upload. Our platform tracks popular creators and our algorithm predicts hit videos, allowing creators to be the first to jump on new trends.",
     contributions: [
       "Created and fine-tuned a highly efficient priority-based queuing system using Redis and Bull MQ to fetch YouTube video data for hundreds of channels simultaneously",
-      "The system incorporates optimal intervals and delays, with dedicated workers continuously pinging the YouTube API to ensure real-time data retrieval and listens to Google’s PubSub channel upload system",
+      "Used dedicated workers to ping the YouTube API at optimal intervals and delays, to ensure real-time data retrieval and listen to Google’s PubSub channel upload system",
       "Designed and created a front-end interface with a retro movie theme, providing users with an engaging way to view channels and analyze video performance data using Recharts JS",
     ],
     tech: [
@@ -25,7 +25,7 @@ export const projects = [
     description:
       "Mr.Beam is a steel production planning software that optimizes steel beam orders for the best cutting processes to reduce wastage of steel and workers time. This enterprise software is targeted towards steel cutting companies across North America.",
     contributions: [
-      "Developed an recursive algorithm, which provides recommendations on which beam to cuts to avoid wastage of leftover beams and optimize steel cutters time",
+      "Developed an algorithm, which provides recommendations on which beam to cuts to avoid wastage of leftover beams and optimize steel cutters time",
       "Architected an inventory and order management system with PostgreSQL which auto updates based on the algorithm inventory recommendations",
       "Built an enterprise auth system with email verification, to allow only organization employees to access their Mr. Beam account data",
     ],

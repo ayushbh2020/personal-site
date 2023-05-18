@@ -24,7 +24,7 @@ export const projects = [
     title: "Rewind",
     description: [
       "I developed Rewind, a data engineering project in partnership with YouTuber Jordan Matter. Our platform tracks popular creators and predicts hit videos using a algorithm, helping creators stay ahead of new trends.",
-      "To achieve this, I utilized Redis and Bull MQ workers for queuing and processing millions of data points 24/7, and implemented multi-threading and background tasks for system optimization.",
+      "To achieve this, I utilized Redis and Bull MQ workers for queuing and processing millions of data points 24/7 and elegantly displayed the data with our retro theme app.",
     ],
     type: "project",
     screenshot: "/Rewind.png",
