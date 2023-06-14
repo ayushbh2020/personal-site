@@ -30,23 +30,27 @@ const ExperienceCard = (props: any) => {
       <p className="my-3 whitespace-pre-wrap">{companyDescription}</p>
       <div className="my-3">
         <p>Accomplishments:</p>
-        <ul className="list-disc">
-          {accomplishments.map((accomplishment: string, index: string) => (
-            <li key={index}>
-              <p>{accomplishment}</p>
-            </li>
-          ))}
-        </ul>
+        <div className="ml-4">
+          <ul className="list-disc">
+            {accomplishments.map((accomplishment: string, index: string) => (
+              <li key={index}>
+                <p>{accomplishment}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
       <div className="my-3">
         <p> Stack and processes:</p>
-        <ul className="list-disc">
-          {stack.map((stackItem: string, index: string) => (
-            <li key={index}>
-              <p>{stackItem}</p>
-            </li>
-          ))}
-        </ul>
+        <div className="ml-4">
+          <ul className="list-disc">
+            {stack.map((stackItem: string, index: string) => (
+              <li key={index}>
+                <p>{stackItem}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

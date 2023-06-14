@@ -3,7 +3,7 @@ import { experience } from "@/constants/experience";
 
 export default function Experience() {
   return (
-    <main className="flex flex-col max-w-screen-lg px-8 w-full my-14">
+    <main className="flex flex-col max-w-screen-lg w-full my-14">
       <h1 className="text-left ">Experience</h1>
       {experience.map((experience, index) => (
         <ExperienceCard

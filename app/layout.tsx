@@ -16,8 +16,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="bg-eggshell">
-        <div className="flex flex-col items-center min-h-screen ">
-          <div className="max-w-screen-lg w-full flex items-center justify-between my-8 px-2">
+        <div className="flex flex-col items-center min-h-screen mx-8 md:mx-4">
+          <div className="max-w-screen-lg w-full flex items-center justify-between my-8 ">
             <Link href={"/"} className="logo">
               Ayush
             </Link>

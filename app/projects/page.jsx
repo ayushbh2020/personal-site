@@ -3,7 +3,7 @@ import { projects } from "@/constants/projects";
 
 export default function Projects() {
   return (
-    <main className="flex flex-col max-w-screen-lg px-8 w-full my-14">
+    <main className="flex flex-col max-w-screen-lg  w-full my-14">
       <h1 className="text-left ">Projects</h1>
       {projects.map((project, index) => (
         <ProjectCard

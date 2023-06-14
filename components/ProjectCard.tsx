@@ -12,23 +12,27 @@ const ProjectCard = (props: any) => {
       <p className="my-3 whitespace-pre-wrap">{description}</p>
       <div className="my-3">
         <p>Key Contributions:</p>
-        <ul className="list-disc">
-          {contributions.map((contribution: string, index: string) => (
-            <li key={index}>
-              <p>{contribution}</p>
-            </li>
-          ))}
-        </ul>
+        <div className="ml-4">
+          <ul className="list-disc">
+            {contributions.map((contribution: string, index: string) => (
+              <li key={index}>
+                <p>{contribution}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
       <div className="my-3">
         <p>APIs and Technologies </p>
-        <ul className="list-disc">
-          {tech.map((techItem: string, index: string) => (
-            <li key={index}>
-              <p>{techItem}</p>
-            </li>
-          ))}
-        </ul>
+        <div className="ml-4">
+          <ul className="list-disc">
+            {tech.map((techItem: string, index: string) => (
+              <li key={index}>
+                <p>{techItem}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

@@ -13,11 +13,11 @@ interface Project {
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center max-w-screen-lg px-4">
+    <main className="flex flex-col items-center max-w-screen-lg ">
       <div className="flex flex-col items-center mb-8 md:mb-24">
         <div className="mx-20 md:m-0">
           <Image
-            src="/profile.jpg"
+            src="/profile.jpeg"
             alt="profile pic"
             width={270}
             height={270}
@@ -25,8 +25,8 @@ export default function Home() {
           />
         </div>
         <h3 className="text-center mt-8 px-6">
-          I’m Ayush! I’m a builder, software engineer and bagel enthusiast studying
-          Management Engineering at the University of Waterloo{" "}
+          Builder, Software engineer and Bagel enthusiast studying Management Engineering
+          at the University of Waterloo{" "}
         </h3>
       </div>
       {projects.map((project: Project, index: number) => (
