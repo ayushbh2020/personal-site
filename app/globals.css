@@ -3,73 +3,38 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --blueprint: #152a4e;
+  --ink: #e4ebf7;
+  --grid-line: rgba(228, 235, 247, 0.05);
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  background-color: var(--blueprint);
+  color: var(--ink);
+  /* drafting-paper grid */
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 24px 24px;
 }
 
-.logo {
-  font-family: "Monoton";
-  font-size: 40px;
+::selection {
+  background: #e2574b;
+  color: #fff;
 }
 
-.button {
-  font-family: "Cutive";
-  font-size: 14px;
-}
-.tag {
-  font-family: "Cutive";
-  font-size: 9px;
-}
-
-h1 {
-  font-family: "Cutive";
-  font-size: 34px;
-}
-
-h2 {
-  font-family: "Cutive";
-  font-size: 24px;
-}
-
-h3 {
-  font-family: "Cutive";
-  font-size: 23px;
-}
-
-h4 {
-  font-family: "Cutive";
-  font-size: 16px;
-}
-
-h5 {
-  font-family: "Cutive";
-  font-size: 16px;
-}
-
-p {
-  font-family: "Noto Serif";
-  font-size: 17px;
-}
-
-@media screen and (max-width: 1023px) {
-  .logo {
-    font-family: "Monoton";
-    font-size: 34px;
-  }
-  h1 {
-    font-size: 30px;
+@layer components {
+  /* small mono uppercase drafting annotation */
+  .annotation {
+    @apply font-mono text-[11px] uppercase tracking-[0.15em] text-ink-dim;
   }
 
-  h3 {
-    font-size: 20px;
+  /* drawing callout chip */
+  .tag {
+    @apply font-mono text-[11px] uppercase tracking-[0.15em] text-ink-dim border border-line px-2 py-1;
   }
 
-  p {
-    font-size: 16px;
+  /* mono link, drafting style */
+  .draft-link {
+    @apply font-mono text-xs uppercase tracking-[0.15em] text-ink underline-offset-4 hover:underline;
   }
 }
